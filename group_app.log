@@ -1,0 +1,90 @@
+нояб. 15, 2026 4:20:44 PM Main main
+INFO: Старт приложения обработки успеваемости группы.
+нояб. 15, 2026 4:20:44 PM parser.XmlValidator validate
+INFO: Запуск XSD-валидации файла group.xml по схеме group.xsd
+нояб. 15, 2026 4:20:44 PM parser.XmlValidator validate
+INFO: XML-документ успешно прошёл валидацию по XSD-схеме.
+нояб. 15, 2026 4:20:44 PM parser.DomGroupParser parse
+INFO: Начинаем DOM-парсинг файла: group.xml
+нояб. 15, 2026 4:20:44 PM parser.DomGroupParser parse
+CONFIG: Инициализирована группа: ИВТ-21, курс 2
+нояб. 15, 2026 4:20:44 PM model.Student$Builder build
+FINE: Собран объект студента: Иванов Иван (ID: 1)
+нояб. 15, 2026 4:20:44 PM model.Student$Builder build
+FINE: Собран объект студента: Петрова Анна (ID: 2)
+нояб. 15, 2026 4:20:44 PM model.Student$Builder build
+FINE: Собран объект студента: Сидоров Пётр (ID: 3)
+нояб. 15, 2026 4:20:44 PM model.Student$Builder build
+FINE: Собран объект студента: Кузнецова Мария (ID: 4)
+нояб. 15, 2026 4:20:44 PM model.Student$Builder build
+FINE: Собран объект студента: Морозов Алексей (ID: 5)
+нояб. 15, 2026 4:20:44 PM model.Student$Builder build
+FINE: Собран объект студента: Волкова Елена (ID: 6)
+нояб. 15, 2026 4:20:44 PM parser.DomGroupParser parse
+INFO: Парсинг завершён. Загружено студентов: 6
+нояб. 15, 2026 4:20:44 PM service.GroupStatistics bySubject
+FINE: Расчёт статистики по предметам...
+нояб. 15, 2026 4:20:44 PM service.GroupStatistics bySubject
+INFO: Рассчитана статистика по 3 предметам.
+нояб. 15, 2026 4:20:44 PM service.GroupStatistics markDistribution
+FINE: Подсчёт распределения оценок...
+нояб. 15, 2026 4:20:44 PM service.GroupStatistics byCategory
+FINE: Распределение студентов по категориям успеваемости...
+нояб. 15, 2026 4:20:44 PM strategy.StudentRanking setStrategy
+CONFIG: Установлена стратегия сортировки: по среднему баллу
+нояб. 15, 2026 4:20:44 PM strategy.StudentRanking rank
+INFO: Формирование рейтинга студентов (по среднему баллу)
+нояб. 15, 2026 4:20:44 PM strategy.StudentRanking setStrategy
+CONFIG: Установлена стратегия сортировки: по алфавиту
+нояб. 15, 2026 4:20:44 PM strategy.StudentRanking rank
+INFO: Формирование рейтинга студентов (по алфавиту)
+нояб. 15, 2026 4:20:44 PM strategy.StudentRanking setStrategy
+CONFIG: Установлена стратегия сортировки: по задолженностям
+нояб. 15, 2026 4:20:44 PM strategy.StudentRanking rank
+INFO: Формирование рейтинга студентов (по задолженностям)
+нояб. 15, 2026 4:20:44 PM Main main
+INFO: Завершение основного блока выполнения программы (блок finally).
+нояб. 15, 2026 10:25:03 PM Main main
+INFO: Старт приложения обработки успеваемости группы.
+нояб. 15, 2026 10:25:03 PM parser.XmlValidator validate
+INFO: XML-документ успешно прошёл валидацию по XSD-схеме.
+нояб. 15, 2026 10:25:03 PM parser.DomGroupParser parse
+INFO: Начинаем DOM-парсинг файла: group.xml
+нояб. 15, 2026 10:25:03 PM parser.DomGroupParser parse
+CONFIG: Инициализирована группа: ИВТ-21, курс 2
+нояб. 15, 2026 10:25:03 PM model.Student$Builder build
+FINE: Собран объект студента: Иванов Иван (ID: 1)
+нояб. 15, 2026 10:25:03 PM model.Student$Builder build
+FINE: Собран объект студента: Петрова Анна (ID: 2)
+нояб. 15, 2026 10:25:03 PM model.Student$Builder build
+FINE: Собран объект студента: Сидоров Пётр (ID: 3)
+нояб. 15, 2026 10:25:03 PM model.Student$Builder build
+FINE: Собран объект студента: Кузнецова Мария (ID: 4)
+нояб. 15, 2026 10:25:03 PM model.Student$Builder build
+FINE: Собран объект студента: Морозов Алексей (ID: 5)
+нояб. 15, 2026 10:25:03 PM model.Student$Builder build
+FINE: Собран объект студента: Волкова Елена (ID: 6)
+нояб. 15, 2026 10:25:03 PM parser.DomGroupParser parse
+INFO: Парсинг завершён. Загружено студентов: 6
+нояб. 15, 2026 10:25:04 PM service.GroupStatistics bySubject
+FINE: Расчёт статистики по предметам...
+нояб. 15, 2026 10:25:04 PM service.GroupStatistics bySubject
+INFO: Рассчитана статистика по 3 предметам.
+нояб. 15, 2026 10:25:04 PM service.GroupStatistics markDistribution
+FINE: Подсчёт распределения оценок...
+нояб. 15, 2026 10:25:04 PM service.GroupStatistics byCategory
+FINE: Распределение студентов по категориям успеваемости...
+нояб. 15, 2026 10:25:04 PM strategy.StudentRanking setStrategy
+CONFIG: Установлена стратегия сортировки: по среднему баллу
+нояб. 15, 2026 10:25:04 PM strategy.StudentRanking rank
+INFO: Формирование рейтинга студентов (по среднему баллу)
+нояб. 15, 2026 10:25:04 PM strategy.StudentRanking setStrategy
+CONFIG: Установлена стратегия сортировки: по алфавиту
+нояб. 15, 2026 10:25:04 PM strategy.StudentRanking rank
+INFO: Формирование рейтинга студентов (по алфавиту)
+нояб. 15, 2026 10:25:04 PM strategy.StudentRanking setStrategy
+CONFIG: Установлена стратегия сортировки: по задолженностям
+нояб. 15, 2026 10:25:04 PM strategy.StudentRanking rank
+INFO: Формирование рейтинга студентов (по задолженностям)
+нояб. 15, 2026 10:25:04 PM Main main
+INFO: Завершение основного блока выполнения программы (блок finally).

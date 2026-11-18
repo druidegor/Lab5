@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group name="ИВТ-21" course="2">
+    <student id="1">
+        <lastName>Иванов</lastName>
+        <firstName>Иван</firstName>
+        <birthDate>2005-03-14</birthDate>
+        <grades>
+            <grade subject="Математика">5</grade>
+            <grade subject="Программирование">5</grade>
+            <grade subject="Физика">4</grade>
+        </grades>
+    </student>
+    <student id="2">
+        <lastName>Петрова</lastName>
+        <firstName>Анна</firstName>
+        <birthDate>2004-11-02</birthDate>
+        <grades>
+            <grade subject="Математика">4</grade>
+            <grade subject="Программирование">5</grade>
+            <grade subject="Физика">5</grade>
+        </grades>
+    </student>
+    <student id="3">
+        <lastName>Сидоров</lastName>
+        <firstName>Пётр</firstName>
+        <birthDate>2005-07-21</birthDate>
+        <grades>
+            <grade subject="Математика">3</grade>
+            <grade subject="Программирование">2</grade>
+            <grade subject="Физика">3</grade>
+        </grades>
+    </student>
+    <student id="4">
+        <lastName>Кузнецова</lastName>
+        <firstName>Мария</firstName>
+        <birthDate>2005-01-30</birthDate>
+        <grades>
+            <grade subject="Математика">5</grade>
+            <grade subject="Программирование">4</grade>
+            <grade subject="Физика">4</grade>
+        </grades>
+    </student>
+    <student id="5">
+        <lastName>Морозов</lastName>
+        <firstName>Алексей</firstName>
+        <birthDate>2005-05-09</birthDate>
+        <grades>
+            <grade subject="Математика">5</grade>
+            <grade subject="Программирование">5</grade>
+            <grade subject="Физика">5</grade>
+        </grades>
+    </student>
+    <student id="6">
+        <lastName>Волкова</lastName>
+        <firstName>Елена</firstName>
+        <birthDate>2004-12-17</birthDate>
+        <grades>
+            <grade subject="Математика">3</grade>
+            <grade subject="Программирование">4</grade>
+            <grade subject="Физика">3</grade>
+        </grades>
+    </student>
+</group>
